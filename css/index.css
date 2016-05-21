@@ -1,0 +1,200 @@
+body {
+  background-color: white;
+  color: #bdc3c7;
+  font-family: 'Lato', sans-serif;
+}
+
+.top-bar{
+  height: 200px;
+  width: 100%;
+  /* background-color: #3F51B5; */
+  background-color: #29f3c3;
+}
+
+.top-bar-container{
+  height: 100%;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.top-bar:first-child{
+  height: 80px;
+  background-color: white;
+}
+
+.top-bar:first-child p{
+  line-height: 80px;
+  color: black;
+  font-size: 18px;
+  margin-left: 5px;
+}
+
+.container{
+  width: 80%;
+  background-color: #272727;
+  padding: 20px;
+  margin: -150px auto;
+  margin-bottom: 100px;
+  /* border-radius: 20px; */
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+}
+.img-div {
+  border:5px solid #29f3c3;
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.img-div img{
+  border:5px solid #29f3c3;
+  border-radius: 100%;
+}
+
+
+.right-div {
+  border-left: 2px solid #bdc3c7;
+  padding-left: 25px;
+}
+
+.left-div img{
+  height: 100px;
+  width: 100px;
+
+}
+
+#personal-info p{
+  font-size: 15px;
+}
+
+#personal-info p span{
+  color: white;
+}
+
+#personal-info .name{
+  font-size: 30px;
+  padding: 10px 0px;
+  display: inline-block;
+  color: white;
+}
+
+.glyphicon {
+  margin-right: 10px;
+  color: black;
+}
+
+.title {
+  font-size: 30px;
+  display: inline-block;
+  color: black;
+  padding-bottom: 10px;
+  border-bottom: 5px solid #29f3c3;
+  color: white;
+}
+
+#reference ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+#reference ul li{
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+#reference ul li p{
+  margin: 0px;
+}
+
+#reference ul li p:first-child{
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.experience-list {
+  margin-bottom: 30px;
+}
+
+p.job, p.duration {
+  margin-bottom: 0px;
+}
+
+p.job {
+  font-weight: bold;
+  color: white;
+
+}
+
+p.duration{
+  font-size: 13px;
+}
+
+.experience-list li p {
+  padding: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+p.study {
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 15px;
+}
+
+p.study1 {
+  margin-top: 5px;
+}
+
+p.study-desc{
+  font-size: 14px;
+  padding: 0px;
+  margin: 2px;
+}
+
+.star-div {
+  list-style-type: none;
+  padding: 0px;
+
+}
+
+.star-div p span{
+  color: #29f3c3;
+}
+
+.star-div p span.no{
+  color: grey;
+}
+
+.go-top-button {
+
+  padding: 0px 10px;
+  border-radius: 5px;
+  z-index: 1000;
+  background-color: tomato;
+  position: fixed;
+  top: 15px;
+  right: 25px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  color: white;
+}
+
+.go-top-button p{
+  font-size: 16px;
+  line-height: 50px;
+  margin: 0;
+}
+
+.go-top-button:hover {
+  cursor: pointer;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+@media (max-width: 970px) {
+  .right-div {
+    border-left: none;
+    padding-left: 10px;
+  }
+}
