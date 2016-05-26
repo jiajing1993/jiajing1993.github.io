@@ -36,8 +36,13 @@ body {
   margin: -150px auto;
   margin-bottom: 100px;
   /* border-radius: 20px; */
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23)
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
+
+.resume-container{
+  position: relative; 
+}
+
 .img-div {
   border:5px solid #29f3c3;
   height: 150px;

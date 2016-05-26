@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Animation</title>
+  <link rel="stylesheet" href="css/animation.css">
+</head>
+<body>
+  <div id="slider" class="slider slide-out">
+
+  </div>
+  <div id="slider1" class="slider slide-in">
+
+  </div>
+  <div id="slider2" class="slider slide-in">
+
+  </div>
+  <script>
+  var $slider = document.getElementById('slider');
+  $slider.addEventListener('click', function() {
+    var isOpen = $slider.classList.contains('slide-in');
+    $slider.setAttribute('class', isOpen ? 'slide-out' : 'slide-in');
+  });
+  </script>
+</body>
+</html>

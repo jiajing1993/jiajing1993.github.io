@@ -1,0 +1,51 @@
+html, body{
+  height: 100%;
+  width: 100%;
+}
+
+.main-row{
+  height: 100%;
+  width: 300%;
+  position: fixed;
+  transition: all 0.5s;
+}
+
+.row-box {
+  padding: 2.5%;
+  max-height: 100%;
+  overflow-y: scroll;
+  width: 28%;
+  float: left;
+}
+
+.row-box:first-child {
+  margin-left: 0;
+}
+
+#first-row-box{
+  background-color: #F5861E;
+}
+
+#first-row-box h2{
+  text-align: right;
+}
+
+#second-row-box{
+  background-color: #DBD7CF;
+}
+
+#third-row-box{
+  background-color: #272321;
+}
+
+.back {
+  margin-left: 0%;
+}
+
+.center{
+  margin-left: -75%;
+}
+
+.forward{
+  margin-left: -150%;
+}
