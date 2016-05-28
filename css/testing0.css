@@ -7,13 +7,13 @@ html, body{
 .nav-bar{
   height: 100px;
   width: 100%;
-  background-color: white;
+  background-color: tomato;
 }
 
 .main-row{
   height: 80%;
   width: 100%;
-  background-color: grey;
+  background-color: white;
   position: relative;
   overflow: hidden;
   overflow-x: hidden;
@@ -29,9 +29,13 @@ html, body{
 
 }
 
+.row-box::-webkit-scrollbar {
+  display: none;
+}
+
 #first-row-box{
   position: absolute;
-  background-color: #F5861E;
+  background-color: #FAF9F4;
   transform: translateX(-80%);
 
 }

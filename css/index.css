@@ -29,7 +29,7 @@ body {
   margin-left: 5px;
 }
 
-.container{
+.resume-container{
   width: 80%;
   background-color: #272727;
   padding: 20px;
@@ -40,7 +40,7 @@ body {
 }
 
 .resume-container{
-  position: relative; 
+  position: relative;
 }
 
 .img-div {

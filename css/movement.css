@@ -1,0 +1,69 @@
+#bigcloud {
+    animation: bobble 2s infinite;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+@keyframes bobble {
+    0% {
+        transform: translate3d(50px, 40px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(50px, 50px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(50px, 40px, 0px);
+    }
+}
+
+#ball {
+  animation: ball 5s infinite,spin 5s infinite;
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  background-color: tomato;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+  position: fixed;
+  top: 5%;
+}
+
+#ball p{
+  line-height: 100px;
+  margin: 0px;
+
+}
+
+@keyframes ball {
+    0% {
+        /* transform: translateX(0%); */
+        left: 0%;
+    }
+    50% {
+
+        z-index: 100;
+        box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+        /* transform: translateX(300%); */
+        left: 50%;
+
+    }
+    100% {
+        left: 0%;
+    }
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}

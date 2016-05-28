@@ -1,0 +1,114 @@
+.work-container{
+  padding: 20px;
+  width: 90%;
+}
+
+.work-img-div{
+}
+
+.work-title{
+  font-size: 3em;
+  font-family: 'Covered By Your Grace', cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.img-box{
+  height: 300px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  /* border: 1px solid black; */
+}
+
+
+.img-box img{
+  transition: all 0.5s;
+
+}
+
+.img-box img:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.img-box p{
+  margin: 10px 0px 20px 0px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 400;
+  color: #404040;
+}
+
+.img-box2{
+  height: 300px;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  margin: 0px !important;
+  /* border: 1px solid black; */
+}
+
+.img-box2 img{
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.img-box2 p{
+  margin: 15px 0px 30px 0px;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  font-weight: 400;
+  color: #404040;
+}
+
+.imgWrap {
+  position: relative;
+  padding: 0px !important;
+  ;
+}
+
+.imgDescription {
+  line-height: 250px;
+  font-size: 1.5em;
+  position: absolute;
+  margin: 0px !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(52, 73, 94, 0.92);
+  color: #fff !important;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
+
+.work-container{
+  background-color: #FAF9F4;
+}
+
+@media (max-width: 970px) {
+  .img-box{
+    height: 200px;
+    padding: 0px;
+
+  }
+  .img-box2{
+    height: 300px;
+  }
+
+  .imgDescription {
+    line-height: 150px;
+  }
+}
