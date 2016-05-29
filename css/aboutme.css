@@ -1,0 +1,308 @@
+.main-page{
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
+  height: 500px;
+  width: 100%;
+  color: white;
+}
+
+#bigcloud {
+  margin: 0px;
+  margin-top: 15px;
+  border: 3px solid white;
+  display: inline-block;
+  padding: 5px;
+  background-color: white;
+  color: #1abc9c;
+  border-radius: 5%;
+  text-align: center;
+}
+
+
+#bigcloud {
+    animation: bobble 2s infinite;
+    margin: 0px;
+    margin-top: 15px;
+}
+
+@keyframes bobble {
+    0% {
+        transform: translate3d(0%, 40px, 0px);
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: translate3d(0%, 50px, 0px);
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: translate3d(0%, 40px, 0px);
+    }
+}
+
+
+.main-page h1{
+  margin: 0px;
+  font-size: 6em;
+  margin-top: 5%;
+
+}
+
+.main-page h3{
+  margin-bottom: 50px;;
+}
+
+
+#know-me-id {
+  text-decoration: none;
+  color: white;
+
+}
+
+
+
+.know-me-more{
+  border: 4px solid white;
+  padding: 20px;
+  display: inline;
+  margin: 0 auto;
+  transition: all 1s;
+}
+
+.know-me-more:hover{
+  background-color: white;
+  color: #1abc9c;
+}
+
+#what-I-do{
+  background-color: white;
+  color: #1abc9c;
+}
+
+.about-main-text{
+  width: 700px;
+  margin: 50px auto;
+  font-size: 16px;
+
+}
+
+
+
+.magic-box{
+  height: 150px;
+  width: 150px;
+  border-radius: 100%;
+  margin: 50px auto;
+  text-align: center;
+  background-color: #F3F2F1;
+
+
+}
+
+.about-main-text img{
+  margin: 0px auto;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+
+}
+
+
+.first-image{
+  animation: move 8s infinite, spin 8s infinite;
+
+}
+
+.second-image{
+  animation: move2 8s infinite, spin2 8s infinite;
+}
+
+#what-I-like{
+  background-color: #1abc9c;
+  color: white;
+}
+
+.like-main-text {
+  width: 700px;
+  margin: 50px auto;
+  font-size: 16px;
+}
+
+#contactme{
+  background-color: #1abc9c;
+  overflow: hidden;
+}
+
+#rocket{
+  height: 80px;
+  width: 160px;
+  margin-top: 30px;
+  animation: fly 15s infinite;
+}
+
+#rocket:hover{
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+.contactme{
+  width: 700px;
+  background-color: white;
+  margin: 40px auto;
+  padding: 20px;
+  padding-bottom: 30px;
+  color: #1abc9c;
+  text-align: center;
+}
+
+.contactme h1{
+  border-bottom: 4px solid #1abc9c;
+  display: inline-block;
+  padding: 10px;
+}
+
+.contactme p{
+  font-size: 16px;
+  color: #95a5a6;
+}
+
+.contactme p:nth-child(2){
+  margin-bottom: 50px;
+}
+
+.message-btn{
+  color: white;
+  background-color: #1abc9c;
+  padding: 15px 25px;
+  transition: all 1s;
+
+}
+
+.message-btn:hover{
+  text-decoration: none;
+  border: 3px solid #1abc9c;
+  background-color: white;
+  color: #1abc9c;
+}
+
+
+@keyframes move {
+    0% {
+      visibility: visible;
+      opacity: 1;
+      height: 100px;
+      width: 100px;
+      animation-timing-function: ease-in;
+    }
+
+    20% {
+      visibility: visible;
+      opacity: 1;
+      height: 100px;
+      width: 100px;
+      animation-timing-function: ease-in;
+    }
+
+    50% {
+      height: 0px;
+      width: 0px;
+      visibility: visible;
+      opacity: 0;
+    }
+    100% {
+      height: 0px;
+      width: 0px;
+      visibility: visible;
+      opacity: 0;
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-in;
+    }
+
+    20% {
+        transform: rotate(0deg);
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        transform: rotate(1800deg);
+    }
+}
+
+@keyframes move2 {
+    0% {
+      height: 0px;
+      width: 0px;
+      visibility: visible;
+      opacity: 0;
+    }
+
+    50% {
+      height: 0px;
+      width: 0px;
+      visibility: visible;
+      opacity: 0;
+    }
+
+    80% {
+      visibility: visible;
+      opacity: 1;
+      height: 100px;
+      width: 100px;
+      animation-timing-function: ease-in;
+    }
+    100% {
+      visibility: visible;
+      opacity: 1;
+      height: 100px;
+      width: 100px;
+      animation-timing-function: ease-in;
+    }
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(1800deg);
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+
+@keyframes fly {
+  0% {
+      transform: translateX(-100%);
+      animation-timing-function: ease-in;
+  }
+
+  100% {
+      transform: translateX(900%);
+  }
+}
+
+
+@media (max-width: 970px) {
+  .main-page h1{
+    font-size: 4em;
+    margin-top: 16%;
+
+  }
+
+  .about-main-text{
+    width: 90%;
+  }
+
+  .contactme{
+    width: 90%;
+  }
+}
