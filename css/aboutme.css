@@ -1,7 +1,8 @@
 .main-page{
   background-color: #1abc9c;
-  border: 1px solid #1abc9c;
+
   height: 500px;
+  width: 100%;
   color: white;
 }
 
@@ -75,10 +76,16 @@
 #what-I-do{
   background-color: white;
   color: #1abc9c;
+  border: 5px solid white;
+}
+
+div#who-am-i {
+  width: 80%;
+  margin: 0px auto;
 }
 
 .about-main-text{
-  width: 700px;
+  width: 80%;
   margin: 50px auto;
   font-size: 16px;
 
